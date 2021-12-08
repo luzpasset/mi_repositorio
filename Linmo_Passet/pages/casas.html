@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--Head parte html que el usuario no ve-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
+    <title>LINMO PROPIEDADES</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <!--Empieza header-->
+    
+  <header class="header">
+    <nav class="nav">
+        <div class="nav__logo">
+            <img class= "nav__img" src="../img/logo.svg" alt="logo"> 
+            <h1 class="nav__titulo">LINMO </h1>
+        </div>
+
+        
+        <div class="nav__barra">
+          <ul>
+            <li><a href="../pages/desarrollos.html" class="nav__barra">DESARROLLOS</a></li>
+            <li><a href="../pages/terrenos.html" class="nav__barra">TERRENOS</a></li>
+            <li><a href="../pages/casas.html" class="nav__barra">CASAS</a></li>
+            <li><a href="../pages/departamentos.html" class="nav__barra">DEPARTAMENTOS</a></li>
+            <li><a href="../index.html" class="nav__barra">INICIO</a></li>
+          </ul>    
+        </div>
+
+    </nav>
+</header>
+
+<!------------------------------------------------------------------------------->
+
+<body>
+
+  <div class="cajaDesarrollo">
+    <p class="cajaDesarrollo">CASAS</p>
+  </div>
+
+<!--Desplegable de opciones-->
+
+    <div class="formDesarrollo">
+      <p>¿Cual es tu zona de interes?</p>
+        <select name="calificacion" id="calificacion" class="edit02">
+          <option value="S">Seleccionar</option>
+          <option value="P">Pilar</option>
+          <option value="E">Escobar</option>
+        </select>
+    </div>
+
+<!--Botones de Selección (una sola)-->
+
+    <div class="formDesarrollo">
+        <label for="opinion">Barrio Abierto</label>
+          <input type="radio" name="opinion" value="barrioabierto">
+        <label for="opinion">Barrio Cerrado</label>
+          <input type="radio" name="opinion" value="barriocerrado">
+    </div>
+
+
+    <div class="typeCasas">
+      <p>VENTA</p>
+      <p>ALQUILER</p>
+      <p>ALQUILER TEMPORAL</p>
+    </div>
+
+    
+  
+      <div class="fotoscasas02">
+        <img src="../img/Casas.jpg" alt="fotodesarrollo" width="15%">
+        <img src="../img/Casas.jpg" alt="fotodesarrollo" width="15%">
+        <img src="../img/Casas.jpg" alt="fotodesarrollo" width="15%">
+        <img src="../img/Casas.jpg" alt="fotodesarrollo" width="15%">
+        <img src="../img/Casas.jpg" alt="fotodesarrollo" width="15%">
+        <img src="../img/Casas.jpg" alt="fotodesarrollo" width="15%">
+    </div>
+
+    <div class="titcasas">
+      <p> CONTAMOS CON FOTOGRAFIA PROFESIONAL Y VIDEOS</p>
+    </div>
+
+    <div class= "video1">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/xG1bCn2iops" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8zZWearegwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/i_mgMwPSxOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+          <div class="titcasas">
+              <p> TU NUEVA CASA CON NOSOTROS</p>
+          </div>
+
+    <div class="formCasas">
+        <form action=""method="">
+
+        <!--Dejanos tus datos-->
+    
+          <h4>Dejanos tus datos y te contactaremos a la brevedad:</h4>
+            <label for="nombre">Nombre</label>
+              <input  type="text" name="nombre" placeholder="escribetunombre" required>
+            <label for="mail">Mail</label>
+            <label for="celular">Celular</label>
+              <input type="text" name="celular" placeholder="+5491100000000" required>
+  
+        
+      <!--Dejanos un mensaje-->
+              <p>Mensaje:</p>
+            <textarea name="mensaje" id="mensaje" cols="30"rows="10"></textarea>
+                  
+            <div>
+        <!--Botón de click-->
+              <input class="edit02" type="submit" value="Enviar Informacion">
+              <input class="edit02" type="reset" value= "Borrar Informacion">
+            </div>     
+        
+          </form>
+    </div>
+
+
+      <!--Inicio de footer-->   
+<footer>
+  <div class="footer">
+  
+      <table class="table">
+          <tr>
+                  <th>Pilar Edificio Park</th> 
+                  <th>Escobar Edificio Town</th>
+          </tr>
+          <tr>
+                  <td>0230 437 4900</td>
+                  <td>0230 437 4500</td>
+          </tr>
+      </table>
+  
+      <p>
+          <img src="../img/logo.svg" alt="logo" width= 1%> © 2021 - Todos los derechos reservados.
+      </p>
+
+      <div class="redes">
+          <img src="../img/fb.svg" alt="fb" width= 2% >
+          <img src="../img/ig.svg" alt="ig" width= 2%> 
+          <img src="../img/yt.svg" alt="yt" width= 2%> 
+      </div>
+
+  </div>
+
+
+</footer>
+<!------------------------------------------------------------------------------->
+
+</body>
+</html>
