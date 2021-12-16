@@ -10,18 +10,17 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-
+/*Anidacion y & */
 .fav {
     background-color: rgb(165, 233, 227);
     &:hover {
         background-color: white;
     }
 }
-
 footer{
     display: flex;
     flex-direction: row;
-    background-color:rgb(165, 233, 227);
+    background-color:$color-fondo__extremos;
     width: 100%;
     border-top: 2px  black;
     padding: 20px;
@@ -30,7 +29,6 @@ footer{
             background-color: white;
         }
 }
-
 .navbar-light .navbar-nav .nav-link.active {
     color: black;
         &:hover {
@@ -38,3 +36,12 @@ footer{
         }
 }
 
+/*Uso de VARS (variables)*/
+$color-fondo: white;
+$tipografia: trebuchet;
+$color-fondo__extremos: rgb(165, 233, 227);
+
+@font-face {
+    font-family: trebuchet;
+    src: url("'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif");
+}

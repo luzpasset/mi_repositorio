@@ -17,7 +17,6 @@
 .fav:hover {
   background-color: white;
 }
-
 footer {
   display: flex;
   flex-direction: row;
@@ -30,7 +29,6 @@ footer {
 footer:hover {
   background-color: white;
 }
-
 .navbar-light .navbar-nav .nav-link.active {
   color: black;
 }
