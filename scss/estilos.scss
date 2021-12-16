@@ -1,0 +1,40 @@
+#wspicono { 
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: block;
+    background-image: url(/img/wapp.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fav {
+    background-color: rgb(165, 233, 227);
+    &:hover {
+        background-color: white;
+    }
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(165, 233, 227);
+    width: 100%;
+    border-top: 2px  black;
+    padding: 20px;
+    margin-top: 10px;
+        &:hover {
+            background-color: white;
+        }
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: black;
+        &:hover {
+            color: white;
+        }
+}
+
