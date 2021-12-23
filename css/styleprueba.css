@@ -20,7 +20,7 @@
 }
 
 /*Anidacion y & */
-footer {
+.redesInd {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -28,7 +28,7 @@ footer {
   padding: 20px;
   margin-top: 10px;
 }
-footer:hover {
+.redesInd:hover {
   background-color: white;
 }
 
@@ -108,7 +108,7 @@ header {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  width: 15%;
+  width: 20%;
 }
 
 .presentacion1 {
@@ -243,6 +243,81 @@ header {
   height: 10px;
 }
 
+.buscadorPadreIndex {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.buscadorIndex {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  width: 60%;
+}
+
+.buscadorHomeIndex {
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+
+.tipoDeBusquedaIndex {
+  font-family: "Archivo Narrow Regular", sans-serif;
+  float: left !important;
+  position: relative;
+  min-height: 50px;
+  line-height: 2em;
+  margin: 0 15px;
+  min-width: 180px;
+}
+
+#tipobusquedaIndex {
+  width: 180px;
+}
+
+.tipoDePropiedadIndex {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  float: left !important;
+  position: relative;
+  min-height: 50px;
+  line-height: 2em;
+  margin: 0 15px;
+  min-width: 180px;
+}
+
+#tipopropiedadIndex {
+  width: 180px;
+}
+
+.tipoDeZonaIndex {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  float: left !important;
+  position: relative;
+  min-height: 50px;
+  line-height: 2em;
+  margin: 0 15px;
+  min-width: 180px;
+}
+
+#localidadIndex {
+  width: 180px;
+}
+
+#botonbuscadorIndex {
+  background-color: #a5e9e3;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  width: 116px;
+  height: 38px;
+  color: #000000;
+  border: 0;
+  cursor: pointer;
+  text-align: center;
+  transition: all 1s ease;
+}
+
 .nuevasection .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(255, 166, 0, 0) !important;
@@ -270,7 +345,6 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   color: #a5e9e3;
-  font-size: 150%;
 }
 
 .oficialcontainer {
@@ -422,7 +496,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 600px;
+  height: 650px;
   width: 100%;
   border-bottom: 2px black;
   background-color: rgba(128, 128, 128, 0.274);
@@ -587,9 +661,148 @@ header {
 .redes {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: right;
   width: 25%;
+}
+
+.redesInd {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+  padding: 10px;
+}
+
+/*DESARROLLOS*/
+.buscadorPadre {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 25px;
+}
+
+.buscador {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  border: solid 1px #a5e9e3;
+  width: 60%;
+}
+
+.buscadorHome {
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+
+.tipoDeBusqueda {
+  font-family: "Archivo Narrow Regular", sans-serif;
+  float: left !important;
+  position: relative;
+  min-height: 50px;
+  line-height: 2em;
+  margin: 0 15px;
+  min-width: 180px;
+}
+
+#tipobusqueda {
+  width: 180px;
+}
+
+.tipoDePropiedad {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  float: left !important;
+  position: relative;
+  min-height: 50px;
+  line-height: 2em;
+  margin: 0 15px;
+  min-width: 180px;
+}
+
+#tipopropiedad {
+  width: 180px;
+}
+
+.tipoDeZona {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  float: left !important;
+  position: relative;
+  min-height: 50px;
+  line-height: 2em;
+  margin: 0 15px;
+  min-width: 180px;
+}
+
+#localidad {
+  width: 180px;
+}
+
+#botonbuscador {
+  background-color: #a5e9e3;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  width: 116px;
+  height: 38px;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+  text-align: center;
+  transition: all 1s ease;
+}
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+
+.nosotrosParrafo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  margin: 8px;
+  color: white;
+}
+
+.empleado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 80px;
+  padding: 50px;
+}
+
+.tituloEmpleados {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  ont-size: 40px;
+}
+
+.parrafoEmpleados {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  background-color: white;
+  font-size: 40px;
 }
 
 .centrado {
@@ -600,7 +813,44 @@ header {
 }
 
 /* Responsive Desktop*/
+@media screen and (min-width: 1200px) {
+  .buscador {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+}
 /* Responsive Mobile*/
+@media screen and (min-width: 480px) {
+  .buscador {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+}
+@media screen and (min-width: 390px) {
+  footer .buscador {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+}
 /* Responsive Tablet*/
+@media screen and (min-width: 768px) {
+  .buscador {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 991px) {
+  .body2 {
+    font-size: 75%;
+  }
+}
 
 /*# sourceMappingURL=styleprueba.css.map */
