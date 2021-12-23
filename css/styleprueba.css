@@ -224,6 +224,7 @@ header {
   margin: auto;
   font-size: 30px;
   background-color: none;
+  text-align: center;
 }
 
 .pruebaAnimacion {
@@ -822,12 +823,69 @@ header {
   }
 }
 /* Responsive Mobile*/
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 800px) {
+  .cajapadre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    background-image: url("../img/fondotra.jpg");
+    border-bottom: black solid 2px;
+    background-repeat: none;
+  }
+
+  .caja1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #0a0a0a;
+    margin: auto;
+    font-size: 30px;
+    background-color: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .buscadorHomeIndex {
+    display: flex;
+    flex-direction: column;
+    float: left;
+  }
+
   .buscador {
     display: flex;
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 25px;
+    border: solid 1px #a5e9e3;
+    width: 60%;
+    text-align: center;
+  }
+
+  .buscadorPadre {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 25px;
+  }
+
+  .buscadorHome {
+    display: flex;
+    flex-direction: column;
+    float: left;
+  }
+
+  .tipoDeBusqueda {
+    font-family: "Archivo Narrow Regular", sans-serif;
+    float: left !important;
+    position: relative;
+    min-height: 50px;
+    line-height: 2em;
+    margin: 0 15px;
+    min-width: 180px;
   }
 }
 @media screen and (min-width: 390px) {
