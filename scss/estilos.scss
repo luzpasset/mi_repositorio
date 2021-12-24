@@ -716,7 +716,8 @@ header{
     background-color: white;
     margin-top: 5px;
     margin-bottom: 5px;
-    ont-size: 40px;
+    font-size: 40px;
+    text-align: center;
 }
 .parrafoEmpleados { 
     display: flex;
@@ -726,6 +727,7 @@ header{
     color: black;
     background-color: white;
     font-size: 40px;
+    text-align: center;
 }
 
 /*TERRENOS*/
@@ -828,6 +830,7 @@ header{
     justify-content: center;
     color: rgb(165, 233, 227);
 }
+
 
 /*CASAS*/
 .cajaC{
