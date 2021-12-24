@@ -1,0 +1,16 @@
+/* Mapas */
+
+$body: (
+    /*Key + Valor*/
+
+    bg-body: white,
+    bg-titulos: #E9E3DC,
+    color-titulos: black,
+    font-family: trebuchet,
+
+);
+
+.chau {
+    background-color: map-get($body, bg-titulos);
+    color: map-get($body, color-titulos)
+}
