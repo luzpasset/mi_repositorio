@@ -533,11 +533,13 @@ header {
 
 .comentarios {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 70%;
   height: 600px;
+  margin: 10px;
+  padding: 5px;
 }
 
 .comentarios1 {
@@ -553,7 +555,7 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: left;
-  width: 100%;
+  width: 70%;
   margin-top: 15px;
 }
 
@@ -569,7 +571,7 @@ header {
 .linea1 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -590,6 +592,19 @@ header {
   font-size: 12px;
   text-transform: lowercase;
   background-image: radial-gradient(white, #a3d3cd);
+}
+
+.editAlert {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+  color: black;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 2px solid black;
+  font-size: 12px;
+  text-transform: lowercase;
+  background-image: radial-gradient(white, #f86767);
 }
 
 .orden {
@@ -623,6 +638,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 800px;
 }
 
 /*Footer en INDEX */
@@ -696,7 +712,7 @@ header {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 25px;
+  margin: 0px;
 }
 
 .buscador {
@@ -997,7 +1013,10 @@ header {
   min-height: 50px;
   line-height: 2em;
   margin: 0 15px;
-  min-width: 180px;
+  min-width: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-body__casas {
@@ -1026,6 +1045,22 @@ header {
   margin-top: 40px;
   margin-bottom: 10px;
   border-radius: 1rem;
+}
+
+.edit00 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 8px;
+  color: black;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 2px solid black;
+  font-size: 10px;
+  text-transform: lowercase;
+  background-image: radial-gradient(white, #a3d3cd);
 }
 
 /*Carrusel en CASAS */
@@ -1097,6 +1132,7 @@ header {
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 25px;
+    width: 60%;
   }
 
   .oficialcontainerD {
@@ -1106,6 +1142,17 @@ header {
   }
 }
 /* Responsive Mobile*/
+@media screen and (min-width: 800px) {
+  .buscador {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    border: solid 1px #a5e9e3;
+    width: 90%;
+    text-align: center;
+  }
+}
 @media screen and (max-width: 800px) {
   .cajapadre {
     display: flex;
@@ -1201,6 +1248,23 @@ header {
 
   .col0 .col1 .col2 .col3 .col4 .col5 {
     height: 25%;
+  }
+
+  .comentarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 600px;
+  }
+
+  .mapa {
+    width: 300px;
+  }
+
+  .logoMob {
+    width: 100%;
   }
 }
 @media screen and (min-width: 390px) {

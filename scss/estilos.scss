@@ -474,11 +474,13 @@ header{
 }
 .comentarios{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 50%; 
+    width: 70%; 
     height: 600px;
+    margin: 10px;
+    padding: 5px;
 }
 .comentarios1{
     display: flex;
@@ -492,7 +494,7 @@ header{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: left;
-    width: 100%;
+    width: 70%;
     margin-top: 15px;
 }
 .comentarios3{
@@ -506,7 +508,7 @@ header{
 .linea1 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 .marginTop{
@@ -526,6 +528,18 @@ header{
     font-size: 12px;
     text-transform: lowercase;
     background-image: radial-gradient(rgb(255, 255, 255),rgb(163, 211, 205));
+}
+.editAlert { 
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 12px;
+    text-transform: lowercase;
+    background-image: radial-gradient(rgb(255, 255, 255),rgb(248, 103, 103));
 }
 .orden {
     display: flex;
@@ -556,6 +570,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 800px;
 }
 
 /*Footer en INDEX */
@@ -625,7 +640,7 @@ header{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: 25px;
+    margin: 0px;
 }
 .buscador { 
     display: flex;
@@ -894,7 +909,10 @@ header{
     min-height: 50px;
     line-height: 2em;
     margin: 0 15px;
-    min-width: 180px;
+    min-width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .card-body__casas {
     background-color: rgba(165, 233, 227, 0.555);
@@ -920,6 +938,21 @@ header{
     margin-top: 40px;
     margin-bottom: 10px;
     border-radius: 1rem;
+}
+.edit00 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 10px;
+    text-transform: lowercase;
+    background-image: radial-gradient(rgb(255, 255, 255),rgb(163, 211, 205));
 }
 /*Carrusel en CASAS */
 .containercarrusel { 
@@ -1011,6 +1044,7 @@ header{
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 25px;
+    width: 60%;
 }
    .oficialcontainerD {
     width: 1200px;
@@ -1045,6 +1079,19 @@ header{
         .me-auto mb-2 mb-lg-0 {
     }
    }
+   
+}
+
+@media screen and (min-width: 800px){
+    .buscador { 
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        border: solid 1px rgb(165, 233, 227);
+        width: 90%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 800px){
@@ -1132,6 +1179,20 @@ header{
     }
     .col0 .col1 .col2 .col3 .col4 .col5 {
         height: 25%;
+    }
+    .comentarios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%; 
+        height: 600px;
+    }
+    .mapa {
+        width: 300px;
+    }
+    .logoMob {
+        width: 100%;
     }
 }   
 
