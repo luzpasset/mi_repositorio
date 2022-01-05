@@ -198,8 +198,15 @@ header {
   margin: 10px;
 }
 
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  background-color: #a5e9e3;
+}
+
 .collapse {
-  flex-grow: 0;
+  flex-grow: 1;
   align-items: center;
   justify-content: center;
 }
@@ -465,7 +472,7 @@ header {
   background-color: white;
   margin-top: 5px;
   margin-bottom: 5px;
-  ont-size: 40px;
+  font-size: 40px;
 }
 
 .parrafocarrusel {
@@ -480,7 +487,7 @@ header {
 
 .carousel {
   position: relative;
-  width: 80%;
+  width: 90%;
 }
 
 /*Anidacion y & en INDEX */
@@ -787,8 +794,13 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 80px;
-  padding: 50px;
+  margin: 25px;
+  padding: 20px;
+}
+
+.empleado1 {
+  margin: 30px;
+  padding: 10px;
 }
 
 .tituloEmpleados {
@@ -813,6 +825,18 @@ header {
   background-color: white;
   font-size: 40px;
   text-align: center;
+}
+
+.album {
+  width: 100%;
+}
+
+.oficialcontainerD {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*TERRENOS*/
@@ -1039,7 +1063,7 @@ header {
 
 .carousel {
   position: relative;
-  width: 60%;
+  width: 80%;
   border-radius: 1rem;
 }
 
@@ -1073,6 +1097,12 @@ header {
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 25px;
+  }
+
+  .oficialcontainerD {
+    width: 1200px;
+    text-align: center;
+    justify-content: center;
   }
 }
 /* Responsive Mobile*/
@@ -1180,6 +1210,12 @@ header {
     padding-top: 20px;
     padding-bottom: 25px;
   }
+
+  .oficialcontainerD {
+    width: 320px;
+    text-align: center;
+    justify-content: center;
+  }
 }
 /* Responsive Tablet*/
 @media screen and (min-width: 768px) {
@@ -1188,6 +1224,10 @@ header {
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 25px;
+  }
+
+  .oficialcontainerD {
+    width: 800px;
   }
 }
 
