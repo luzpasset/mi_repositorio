@@ -24,6 +24,7 @@
   background-image: url(../img/wapp.svg);
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 80px;
 }
 
 /*Anidacion y & */
@@ -47,18 +48,18 @@
 @keyframes animacionprueba {
   0% {
     left: 0px;
-    right: -120px;
+    right: -105px;
   }
   25% {
-    left: -120px;
+    left: -105px;
     right: 0px;
   }
   50% {
     left: 0px;
-    right: 120px;
+    right: 105px;
   }
   75% {
-    left: 120px;
+    left: 105px;
     right: 0px;
   }
   100% {
@@ -102,13 +103,16 @@ header {
   border: 0px;
   width: 100%;
   flex-wrap: wrap;
+  z-index: 999;
 }
 
 .container-fluid {
   display: flex;
   flex-wrap: initial;
   align-items: center;
-  width: 85%;
+  width: 100%;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 .presentacion {
@@ -664,9 +668,10 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
-  font-size: 20px;
+  font-size: 10px;
   font-weight: bold;
   width: 25%;
+  border: 1px solid white;
 }
 
 .sucursalEscobar {
@@ -674,9 +679,18 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
-  font-size: 20px;
+  font-size: 10px;
   font-weight: bold;
   width: 25%;
+  border: 1px solid white;
+}
+
+.size {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
 }
 
 .derechos {
@@ -684,9 +698,10 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
-  font-size: 18px;
+  font-size: 10px;
   align-items: center;
   width: 25%;
+  border: 1px solid white;
 }
 
 .redes {
@@ -694,17 +709,39 @@ header {
   flex-direction: row;
   justify-content: flex-end;
   align-items: right;
+  text-align: center;
   width: 25%;
+  border: 1px solid white;
 }
 
-.redesInd {
+.redesIg {
   display: flex;
   justify-content: flex-end;
-  width: 100%;
+  width: 20%;
   flex-direction: row;
   align-items: center;
   margin: 0px;
-  padding: 10px;
+  padding: 8px;
+}
+
+.redesFb {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+  padding: 8px;
+}
+
+.redesYt {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+  padding: 8px;
 }
 
 /*DESARROLLOS*/
@@ -1265,6 +1302,36 @@ header {
 
   .logoMob {
     width: 100%;
+  }
+
+  .redesIg {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 2px;
+  }
+
+  .redesFb {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 2px;
+  }
+
+  .redesYt {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 2px;
   }
 }
 @media screen and (min-width: 390px) {
