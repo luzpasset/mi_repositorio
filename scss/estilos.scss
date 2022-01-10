@@ -396,6 +396,15 @@ header{
     margin-left: 8px;
 }
 
+ 
+.card {
+    &:hover {
+    overflow:hidden;
+    filter: opacity(.5);
+    }
+}
+
+
 /*Contenedor en INDEX*/
 .contenedor { 
     display: flex;
@@ -947,6 +956,7 @@ header{
     flex-direction: column;
     align-items: center;
 }
+
 .card-body__casas {
     background-color: rgba(165, 233, 227, 0.555);
     flex: 1 1 auto;

@@ -450,6 +450,11 @@ header {
   margin-left: 8px;
 }
 
+.card:hover {
+  overflow: hidden;
+  filter: opacity(0.5);
+}
+
 /*Contenedor en INDEX*/
 .contenedor {
   display: flex;
